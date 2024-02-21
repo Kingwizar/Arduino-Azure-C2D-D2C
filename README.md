@@ -97,15 +97,15 @@ This sophisticated methodology for receiving and processing messages ensures tha
 
 ## Conclusion:
 
-Summary of Achievements:
+### Summary of Achievements:
 
 At the end of this project, we successfully established sophisticated bidirectional communication between Arduino and Azure, allowing Arduino to serve as an intermediary between physical devices and the cloud. Sensor data and commands are transmitted accurately and secured by the MQTT protocol, while Azure's IoT Hub serves as a central point for managing these exchanges, ensuring authentication and security of communications. The integration of advanced services such as Azure Stream Analytics and Logic Apps has enabled real-time telemetry data analysis and automation of responses, including sending email alerts. Arduino's ability to analyze and respond to cloud instructions was demonstrated by managing NeoPixel color commands and responding to simple commands like "up." The flexibility and robustness of our IoT solution, combined with the power of the Azure cloud, pave the way for intelligent and autonomous applications, capable of delivering significant added value in areas as diverse as home automation, industrial monitoring, or smart agriculture. This project illustrates the potential of IoT when supported by a solid and well-designed cloud infrastructure.
 
 
-Areas for Improvement:
+### Areas for Improvement:
 
 Our project has made enormous progress in IoT integration and communication, but there are areas requiring continuous improvement to achieve operational excellence. The current storage space of 45 Ko could be insufficient for more data-intensive applications, and therefore an expansion of memory would be a significant advancement. Power supply is another critical area, and better energy management could lead to greater autonomy of devices. Specialized components, such as precision sensors or advanced communication modules, could enhance the functionality and reliability of the system. Optimizing Azure resources, focusing exclusively on the use of the Azure Function API, can offer a more streamlined architecture and reduced costs. Finally, moving from the use of prototyping boards to the design of custom PCBs and the integration of microcontrollers tailored to our specific needs would allow for increased customization and improved efficiency of the final product.
 
-Future Perspectives:
+### Future Perspectives:
 
 In the future, the integration of artificial intelligence in data processing and communication promises to transform our system into an even smarter and more responsive IoT platform. By leveraging AI, we can envision advanced capabilities such as machine learning for failure prediction or real-time performance optimization. Introducing an intuitive user interface would open the door to easier and more accessible interaction with the system, allowing users to configure, monitor, and control IoT devices with little or no prior technical knowledge. These enhancements and extensions would not only contribute to the system's functionality and efficiency but also to its adoption and practicality for a wider range of users and applications.
