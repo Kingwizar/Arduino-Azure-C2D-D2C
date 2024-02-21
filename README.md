@@ -1,15 +1,15 @@
 # Arduino-Azure-C2D-D2C
 
 
-Introduction:
+##Introduction:
 
 In the current context, marked by the rise of the Internet of Things (IoT), the ability to connect various devices to cloud platforms opens unprecedented horizons for innovation in numerous sectors. This project aims to establish bidirectional communication between Azure, a cutting-edge cloud platform, and Arduino, a widely recognized open-source electronic platform known for its ease of use and accessibility. The objective is to leverage Azure's robust data processing and analysis capabilities while utilizing Arduino's flexibility and versatility for data collection and control in the physical world.
 
-Context
+###Context
 
 In the digital age, the convergence between the physical and virtual worlds is becoming increasingly crucial. IoT devices, such as those based on Arduino, play a pivotal role in this integration, facilitating real-time data collection and enabling precise control over physical environments. However, the full potential of these devices cannot be achieved without a cloud platform capable of processing, analyzing, and storing vast volumes of data, while providing artificial intelligence and machine learning capabilities for advanced decision-making. Azure stands out as an ideal solution, offering a wide range of services tailored to the complex needs of IoT applications.
 
-Objectives
+###Objectives
 
 The project's main goal is to establish an efficient bidirectional communication between Arduino and Azure, thus allowing:
 
@@ -23,17 +23,17 @@ Security and Reliability: Ensure secure communication between devices and the cl
 
 Accessibility and Ease of Integration: Offer an easy-to-implement and use solution, making IoT technology accessible to a wider range of users, from hobbyists to professionals.
 
-Cloud-to-Device (C2D) Communication:
+##Cloud-to-Device (C2D) Communication:
 
-Arduino
+###Arduino
 
 Arduino plays a crucial role in this project by acting as an intermediary between the physical world and the cloud. It is tasked with collecting data from various devices such as LEDs, temperature sensors, and motors, and then transmitting it to Azure's IoT Hub. This gateway allows not only real-time monitoring of physical parameters but also dynamic interaction with the environment, where the collected information is used to make informed decisions and act accordingly through the cloud.
 
-Initial Setup:
+####Initial Setup:
 
 To establish effective communication between Arduino and Azure, it is essential that Arduino is equipped with a Wi-Fi module, enabling it to access the internet. This connectivity is crucial for initiating the use of the MQTT (Message Queuing Telemetry Transport) protocol, a lightweight and efficient messaging standard designed for machine-to-machine (M2M) communications and IoT. This protocol is particularly suited for sending telemetry data to the cloud quickly and reliably. Azure IoT Hub serves as an MQTT broker, managing and orchestrating communication between IoT devices and the cloud. To connect Arduino to Azure's IoT Hub, it is necessary to correctly configure the IoT Hub's connection string within the Arduino SDK file, specifically in the `configuration.h` file. This step is fundamental to ensuring a secure and operational link between Arduino and the cloud infrastructure, thus allowing smooth interaction and efficient data transmission.
 
-Message Sending Function:
+####Message Sending Function:
 
 The sending of telemetry in the operation of our system is orchestrated within the main loop, or loop function, which is the heart of our executive logic on Arduino. This continuous routine periodically checks the state of the connection with the MQTT server to ensure that Arduino remains connected and capable of communicating with Azure IoT Hub. If the connection is established, it allows the execution of several critical tasks for bidirectional communication between Arduino and the cloud.
 
