@@ -23,7 +23,7 @@ Security and Reliability: Ensure secure communication between devices and the cl
 
 Accessibility and Ease of Integration: Offer an easy-to-implement and use solution, making IoT technology accessible to a wider range of users, from hobbyists to professionals.
 
-## Cloud-to-Device (C2D) Communication:
+## Device-to-Cloud (C2D) Communication:
 
 ### Arduino
 
@@ -61,7 +61,7 @@ Alongside data storage, our system uses Azure Logic Apps to automate reactions b
 These two processes – real-time analytical processing and response automation via email – represent a sophisticated and powerful integration of IoT with cloud services, thus maximizing the system's responsiveness and efficiency in environmental monitoring.
 
 
-## Device-to-Cloud (D2C) Communication:
+## Cloud-to-Device (D2C) Communication:
 
 ### Azure
 
