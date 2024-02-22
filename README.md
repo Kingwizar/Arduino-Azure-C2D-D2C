@@ -109,3 +109,13 @@ Our project has made enormous progress in IoT integration and communication, but
 ### Future Perspectives:
 
 In the future, the integration of artificial intelligence in data processing and communication promises to transform our system into an even smarter and more responsive IoT platform. By leveraging AI, we can envision advanced capabilities such as machine learning for failure prediction or real-time performance optimization. Introducing an intuitive user interface would open the door to easier and more accessible interaction with the system, allowing users to configure, monitor, and control IoT devices with little or no prior technical knowledge. These enhancements and extensions would not only contribute to the system's functionality and efficiency but also to its adoption and practicality for a wider range of users and applications.
+
+## Source
+
+### SDK ARDUINO UNO REV 2 Wifi:
+
+https://github.com/firedog1024/arduino-uno-wifi-iotc
+
+### dps-keygen-master
+
+https://github.com/Azure/dps-keygen
