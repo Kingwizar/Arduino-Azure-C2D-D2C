@@ -54,11 +54,16 @@ Azure IoT Hub is a central pivot of our project, acting as a hub in the cloud fo
 
 In our project, processing messages sent by Arduino is a crucial step that leverages the power of Azure Stream Analytics. When Arduino transmits data to Azure IoT Hub, Stream Analytics comes into play as a real-time event processing engine. It is configured to filter and analyze data streams, thus detecting specific conditions, such as a high temperature alert. Based on rules established in the Stream Analytics query, if a message meets certain criteria – for example, a temperature exceeding a predefined threshold – this message is then routed to a database for archiving and further analysis. This mechanism ensures that only relevant data is stored, thus optimizing storage and processing resources.
 
+![image](https://github.com/Kingwizar/Arduino-Azure-C2D-D2C/assets/151655786/896ee515-1fe3-41ea-b263-09940db8f19e)
+
+
 #### Setting Up Email Message Sending:
 
 Alongside data storage, our system uses Azure Logic Apps to automate reactions based on events. Logic Apps is configured to monitor the database or directly the outputs of Stream Analytics. When a new entry matching our alert criteria is detected, Logic Apps triggers a predefined action: sending an email. This email can be addressed to the maintenance team, system managers, or any other relevant stakeholder, containing details of the alert, such as temperature and humidity values, and any other relevant message. This automated process ensures a quick and effective response to detected critical conditions, enabling proactive intervention to maintain the system in optimal operational conditions.
 
 These two processes – real-time analytical processing and response automation via email – represent a sophisticated and powerful integration of IoT with cloud services, thus maximizing the system's responsiveness and efficiency in environmental monitoring.
+
+![image](https://github.com/Kingwizar/Arduino-Azure-C2D-D2C/assets/151655786/cf97ce7d-3508-41c1-bf5e-727d76767be2)
 
 
 ## Cloud-to-Device (D2C) Communication:
