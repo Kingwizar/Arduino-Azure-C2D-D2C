@@ -73,6 +73,9 @@ Receiving messages is a critical step in communication between cloud services an
 
 Once the message is cleaned of any superfluous HTML formatting, Logic App uses an HTTP POST request to send the cleaned data to a REST API hosted on Azure Functions. This API, specifically designed to interact with Arduino, is tasked with formulating and sending commands to the device. Thanks to the IoT Hub connection string configured in the API, it can create and send a message directly to Arduino via Microsoft Azure's IoT Hub service.
 
+![image](https://github.com/Kingwizar/Arduino-Azure-C2D-D2C/assets/151655786/63cdc303-37da-4df2-977d-8a511e8acdcd)
+
+
 
 The API's code reflects this process: after receiving the message content via an HTTP POST request, it establishes a connection with Azure IoT Hub and sends the message to Arduino, thus enabling bidirectional communication between the cloud and the IoT device. This approach ensures that Arduino receives clear and actionable commands, essential for precise task execution and reliable interaction with the physical world.
 
