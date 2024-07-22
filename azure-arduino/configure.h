@@ -4,5 +4,5 @@ static const char iotConnStr[] = "HostName=iotc-ca803cc2-53e5-4800-9cde-e6ed9b17
 
 //HostName=arduino2.azure-devices.net;DeviceId=testarduino2;SharedAccessKey=IivzReGPpwVFNVJKV/3MCtS6UF20zORbqAIoTFjGpmg=
 // Wi-Fi information
-static const char wifi_ssid[] = "MobiArchitects Work Space";
-static const char wifi_password[] = "WorkSpace@2023$";
+static const char wifi_ssid[] = "";
+static const char wifi_password[] = "";
